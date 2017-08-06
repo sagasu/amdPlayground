@@ -1,0 +1,23 @@
+{
+  "name": "es6-playground",
+  "version": "1.0.0",
+  "description": "es6-playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagasu/es6Playground.git"
+  },
+  "keywords": [
+    "es6",
+    "javascript"
+  ],
+  "author": "Mateusz Kopij <sagasu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sagasu/es6Playground/issues"
+  },
+  "homepage": "https://github.com/sagasu/es6Playground#readme"
+}
