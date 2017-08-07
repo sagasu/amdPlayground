@@ -53,7 +53,7 @@ console.log(updateFuncitons2[9]()); //9
 const myConst = 100;
 console.log(myConst);//100
 
-const myConst2;
+//const myConst2;
 //console.log(myConst2);//Syntaxt error: unexpected token ;
 
 if(true){
