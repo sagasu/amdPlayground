@@ -27,3 +27,11 @@ var invoice = {
   }
 };
 invoice.process()();
+
+var newInvoice = {
+  number: 456
+}
+invoice.process().bind(newInvoice)(); //with arrow function you can not bind into it, because you can not change this
+invoice.process().call(newInvoice); //with arrow function you can not bind into it, because you can not change this
+
+console.log(getPrice.hasOwnProperty("prototype"));// again, arrow function doesn't have anything that normal function has, so it lacks basic properties like prototype
